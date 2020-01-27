@@ -1,0 +1,9 @@
+apiVersion: enmasse.io/v1beta1
+kind: Address
+metadata:
+  name: queue-space.myqueue3
+  addressSpace: standard
+spec:
+  address: myqueue3
+  type: queue
+  plan: special-medium-queue

@@ -1,0 +1,9 @@
+apiVersion: enmasse.io/v1beta1
+kind: AddressSpace
+metadata:
+  name: brokered-space
+  annotations:
+    enmasse.io/infra-uuid: brokeredspace
+spec:
+  type: brokered
+  plan: brokered-single-broker

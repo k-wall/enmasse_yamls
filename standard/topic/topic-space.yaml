@@ -1,0 +1,13 @@
+apiVersion: enmasse.io/v1beta1
+kind: AddressSpace
+metadata:
+  name: topic-space
+  annotations:
+    enmasse.io/infra-uuid: topicspace
+spec:
+  type: standard
+  plan: standard-small
+#  authenticationService:
+#      type: standard
+  
+

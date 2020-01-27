@@ -1,0 +1,10 @@
+apiVersion: enmasse.io/v1beta1
+kind: Address
+metadata:
+  name: cast-space.mymulticast
+  addressSpace: cast-space
+spec:
+  address: mymulticast
+  type: multicast
+  plan: standard-small-multicast
+status: {}

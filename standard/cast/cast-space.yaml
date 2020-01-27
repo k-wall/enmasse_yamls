@@ -1,0 +1,13 @@
+apiVersion: enmasse.io/v1beta1
+kind: AddressSpace
+metadata:
+  name: cast-space
+  annotations:
+    enmasse.io/infra-uuid: castspace
+spec:
+  type: standard
+  plan: standard-medium
+#  authenticationService:
+#      type: standard
+  
+

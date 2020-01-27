@@ -1,0 +1,9 @@
+apiVersion: enmasse.io/v1beta1
+kind: Address
+metadata:
+  name: topic-space.mysub2
+spec:
+  address: mysub2
+  plan: standard-small-subscription
+  topic: mytopic1
+  type: subscription

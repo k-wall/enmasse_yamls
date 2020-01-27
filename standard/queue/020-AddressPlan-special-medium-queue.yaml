@@ -1,0 +1,16 @@
+apiVersion: admin.enmasse.io/v1beta2
+kind: AddressPlan
+metadata:
+  name: special-medium-queue
+  labels:
+    app: enmasse
+spec:
+  displayName: Special Medium Queue
+  displayOrder: 1
+  shortDescription: Creates a medium sized queue sharing underlying broker with other queues.
+  longDescription: Creates a medium sized queue sharing underlying broker with other queues.
+  addressType: queue
+  resources:
+    router: 0.01
+    broker: 0.1
+  partitions: 2
