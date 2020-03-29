@@ -1,0 +1,10 @@
+apiVersion: admin.enmasse.io/v1beta1
+kind: ConsoleService
+metadata:
+  name: console
+spec:
+  discoveryMetadataURL: https://accounts.google.com/.well-known/openid-configuration
+  oauthClientSecret:
+    name: oidc-secret
+  scope: openid email
+
