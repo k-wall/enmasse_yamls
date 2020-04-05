@@ -1,0 +1,9 @@
+apiVersion: enmasse.io/v1beta1
+kind: Address
+metadata:
+  name: widgetspace.warehouse
+spec:
+  address: warehouse
+  plan: standard-small-subscription
+  topic: orders
+  type: subscription
