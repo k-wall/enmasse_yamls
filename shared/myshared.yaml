@@ -1,0 +1,12 @@
+
+apiVersion: enmasse.io/v1beta2
+kind: MessagingInfra
+metadata:
+  name: mysharedinfra
+spec:
+  broker: 
+    scalingStrategy:
+      static:
+        poolSize: 1
+
+  
