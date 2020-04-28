@@ -1,0 +1,7 @@
+apiVersion: enmasse.io/v1beta2
+kind: MessagingEndpoint
+metadata:
+  name: myendpoint
+spec:
+  protocols: [AMQP]
+  cluster: {}

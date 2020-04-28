@@ -1,0 +1,8 @@
+apiVersion: enmasse.io/v1beta2
+kind: MessagingAddress
+metadata:
+  name: myqueue
+spec:
+  queue:  {}
+
+  
