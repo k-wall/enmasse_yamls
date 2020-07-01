@@ -1,5 +1,5 @@
 apiVersion: enmasse.io/v1beta2
-kind: MessagingInfra
+kind: MessagingInfrastructure
 metadata:
   name: mysharedinfra
 spec:

@@ -1,0 +1,9 @@
+apiVersion: enmasse.io/v1beta2
+kind: MessagingAddress
+metadata:
+  name: a/#/b
+spec:
+  subscription:
+    topic: mytopic1
+
+  
